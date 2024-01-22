@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		524260B22B5DF25400E75DFC /* RooftopsAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524260B12B5DF25400E75DFC /* RooftopsAIApp.swift */; };
+		524260B42B5DF25400E75DFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524260B32B5DF25400E75DFC /* ContentView.swift */; };
+		524260B62B5DF25500E75DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524260B52B5DF25500E75DFC /* Assets.xcassets */; };
+		524260B92B5DF25500E75DFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524260B82B5DF25500E75DFC /* Preview Assets.xcassets */; };
+		524260C32B5DF25600E75DFC /* RooftopsAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524260C22B5DF25600E75DFC /* RooftopsAITests.swift */; };
+		524260CD2B5DF25600E75DFC /* RooftopsAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524260CC2B5DF25600E75DFC /* RooftopsAIUITests.swift */; };
+		524260CF2B5DF25600E75DFC /* RooftopsAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524260CE2B5DF25600E75DFC /* RooftopsAIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		524260BF2B5DF25600E75DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524260A62B5DF25400E75DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524260AD2B5DF25400E75DFC;
+			remoteInfo = RooftopsAI;
+		};
+		524260C92B5DF25600E75DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 524260A62B5DF25400E75DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 524260AD2B5DF25400E75DFC;
+			remoteInfo = RooftopsAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		524260AE2B5DF25400E75DFC /* RooftopsAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RooftopsAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		524260B12B5DF25400E75DFC /* RooftopsAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RooftopsAIApp.swift; sourceTree = "<group>"; };
+		524260B32B5DF25400E75DFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		524260B52B5DF25500E75DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524260B82B5DF25500E75DFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		524260BE2B5DF25600E75DFC /* RooftopsAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RooftopsAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		524260C22B5DF25600E75DFC /* RooftopsAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RooftopsAITests.swift; sourceTree = "<group>"; };
+		524260C82B5DF25600E75DFC /* RooftopsAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RooftopsAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		524260CC2B5DF25600E75DFC /* RooftopsAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RooftopsAIUITests.swift; sourceTree = "<group>"; };
+		524260CE2B5DF25600E75DFC /* RooftopsAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RooftopsAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		524260AB2B5DF25400E75DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524260BB2B5DF25600E75DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524260C52B5DF25600E75DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		524260A52B5DF25400E75DFC = {
+			isa = PBXGroup;
+			children = (
+				524260B02B5DF25400E75DFC /* RooftopsAI */,
+				524260C12B5DF25600E75DFC /* RooftopsAITests */,
+				524260CB2B5DF25600E75DFC /* RooftopsAIUITests */,
+				524260AF2B5DF25400E75DFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		524260AF2B5DF25400E75DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524260AE2B5DF25400E75DFC /* RooftopsAI.app */,
+				524260BE2B5DF25600E75DFC /* RooftopsAITests.xctest */,
+				524260C82B5DF25600E75DFC /* RooftopsAIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524260B02B5DF25400E75DFC /* RooftopsAI */ = {
+			isa = PBXGroup;
+			children = (
+				524260B12B5DF25400E75DFC /* RooftopsAIApp.swift */,
+				524260B32B5DF25400E75DFC /* ContentView.swift */,
+				524260B52B5DF25500E75DFC /* Assets.xcassets */,
+				524260B72B5DF25500E75DFC /* Preview Content */,
+			);
+			path = RooftopsAI;
+			sourceTree = "<group>";
+		};
+		524260B72B5DF25500E75DFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				524260B82B5DF25500E75DFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		524260C12B5DF25600E75DFC /* RooftopsAITests */ = {
+			isa = PBXGroup;
+			children = (
+				524260C22B5DF25600E75DFC /* RooftopsAITests.swift */,
+			);
+			path = RooftopsAITests;
+			sourceTree = "<group>";
+		};
+		524260CB2B5DF25600E75DFC /* RooftopsAIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				524260CC2B5DF25600E75DFC /* RooftopsAIUITests.swift */,
+				524260CE2B5DF25600E75DFC /* RooftopsAIUITestsLaunchTests.swift */,
+			);
+			path = RooftopsAIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		524260AD2B5DF25400E75DFC /* RooftopsAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524260D22B5DF25600E75DFC /* Build configuration list for PBXNativeTarget "RooftopsAI" */;
+			buildPhases = (
+				524260AA2B5DF25400E75DFC /* Sources */,
+				524260AB2B5DF25400E75DFC /* Frameworks */,
+				524260AC2B5DF25400E75DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RooftopsAI;
+			productName = RooftopsAI;
+			productReference = 524260AE2B5DF25400E75DFC /* RooftopsAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		524260BD2B5DF25600E75DFC /* RooftopsAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524260D52B5DF25600E75DFC /* Build configuration list for PBXNativeTarget "RooftopsAITests" */;
+			buildPhases = (
+				524260BA2B5DF25600E75DFC /* Sources */,
+				524260BB2B5DF25600E75DFC /* Frameworks */,
+				524260BC2B5DF25600E75DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524260C02B5DF25600E75DFC /* PBXTargetDependency */,
+			);
+			name = RooftopsAITests;
+			productName = RooftopsAITests;
+			productReference = 524260BE2B5DF25600E75DFC /* RooftopsAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		524260C72B5DF25600E75DFC /* RooftopsAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524260D82B5DF25600E75DFC /* Build configuration list for PBXNativeTarget "RooftopsAIUITests" */;
+			buildPhases = (
+				524260C42B5DF25600E75DFC /* Sources */,
+				524260C52B5DF25600E75DFC /* Frameworks */,
+				524260C62B5DF25600E75DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				524260CA2B5DF25600E75DFC /* PBXTargetDependency */,
+			);
+			name = RooftopsAIUITests;
+			productName = RooftopsAIUITests;
+			productReference = 524260C82B5DF25600E75DFC /* RooftopsAIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		524260A62B5DF25400E75DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					524260AD2B5DF25400E75DFC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					524260BD2B5DF25600E75DFC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 524260AD2B5DF25400E75DFC;
+					};
+					524260C72B5DF25600E75DFC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 524260AD2B5DF25400E75DFC;
+					};
+				};
+			};
+			buildConfigurationList = 524260A92B5DF25400E75DFC /* Build configuration list for PBXProject "RooftopsAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 524260A52B5DF25400E75DFC;
+			productRefGroup = 524260AF2B5DF25400E75DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				524260AD2B5DF25400E75DFC /* RooftopsAI */,
+				524260BD2B5DF25600E75DFC /* RooftopsAITests */,
+				524260C72B5DF25600E75DFC /* RooftopsAIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		524260AC2B5DF25400E75DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524260B92B5DF25500E75DFC /* Preview Assets.xcassets in Resources */,
+				524260B62B5DF25500E75DFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524260BC2B5DF25600E75DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524260C62B5DF25600E75DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524260AA2B5DF25400E75DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524260B42B5DF25400E75DFC /* ContentView.swift in Sources */,
+				524260B22B5DF25400E75DFC /* RooftopsAIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524260BA2B5DF25600E75DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524260C32B5DF25600E75DFC /* RooftopsAITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		524260C42B5DF25600E75DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524260CF2B5DF25600E75DFC /* RooftopsAIUITestsLaunchTests.swift in Sources */,
+				524260CD2B5DF25600E75DFC /* RooftopsAIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		524260C02B5DF25600E75DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524260AD2B5DF25400E75DFC /* RooftopsAI */;
+			targetProxy = 524260BF2B5DF25600E75DFC /* PBXContainerItemProxy */;
+		};
+		524260CA2B5DF25600E75DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 524260AD2B5DF25400E75DFC /* RooftopsAI */;
+			targetProxy = 524260C92B5DF25600E75DFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		524260D02B5DF25600E75DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		524260D12B5DF25600E75DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		524260D32B5DF25600E75DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RooftopsAI/Preview Content\"";
+				DEVELOPMENT_TEAM = Z5V2X4KTUC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.rooftops.RooftopsAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		524260D42B5DF25600E75DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RooftopsAI/Preview Content\"";
+				DEVELOPMENT_TEAM = Z5V2X4KTUC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.rooftops.RooftopsAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		524260D62B5DF25600E75DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z5V2X4KTUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.rooftops.RooftopsAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RooftopsAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RooftopsAI";
+			};
+			name = Debug;
+		};
+		524260D72B5DF25600E75DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z5V2X4KTUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.rooftops.RooftopsAITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RooftopsAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RooftopsAI";
+			};
+			name = Release;
+		};
+		524260D92B5DF25600E75DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z5V2X4KTUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.rooftops.RooftopsAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RooftopsAI;
+			};
+			name = Debug;
+		};
+		524260DA2B5DF25600E75DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z5V2X4KTUC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.rooftops.RooftopsAIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RooftopsAI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		524260A92B5DF25400E75DFC /* Build configuration list for PBXProject "RooftopsAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524260D02B5DF25600E75DFC /* Debug */,
+				524260D12B5DF25600E75DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524260D22B5DF25600E75DFC /* Build configuration list for PBXNativeTarget "RooftopsAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524260D32B5DF25600E75DFC /* Debug */,
+				524260D42B5DF25600E75DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524260D52B5DF25600E75DFC /* Build configuration list for PBXNativeTarget "RooftopsAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524260D62B5DF25600E75DFC /* Debug */,
+				524260D72B5DF25600E75DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524260D82B5DF25600E75DFC /* Build configuration list for PBXNativeTarget "RooftopsAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524260D92B5DF25600E75DFC /* Debug */,
+				524260DA2B5DF25600E75DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 524260A62B5DF25400E75DFC /* Project object */;
+}
